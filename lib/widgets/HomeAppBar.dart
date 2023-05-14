@@ -10,7 +10,7 @@ class HomeAppBar extends StatelessWidget {
       // Agregamos color al appbar, un pading del contenedor
       // y un icono
       color: Colors.brown,
-      padding: const EdgeInsets.all(20),
+      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
       child: const Row(
         children: [
           Icon(
@@ -20,9 +20,9 @@ class HomeAppBar extends StatelessWidget {
           ),
           // Agregamos texto padding y estilo al titulo
           Padding(
-            padding: EdgeInsets.only(left: 20),
+            padding: EdgeInsets.only(left: 15),
             child: Text(
-              "Coffe Store",
+              "Tienda de cafe",
               style: TextStyle(
                 fontSize: 23,
                 fontWeight: FontWeight.bold,
